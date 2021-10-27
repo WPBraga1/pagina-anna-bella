@@ -1,0 +1,90 @@
+body {
+    background: #d2d2c1 url('imagens/fundo1.png'); 
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 900px;
+}
+
+#menu {
+    background:#c5c5b2;
+    padding: 18px;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px
+}
+
+#rodape {
+    text-align: center;
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: none;
+    font-style: italic;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+
+}
+
+a {
+    color:#4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+#area {
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 270px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+
+fieldset {
+    width: 300px;
+    height: 250px;
+}
+
+legend {
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+#formulario label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+#formulario input.campo_nome {
+    position: absolute;
+    left: 95px;
+    top: 23px;
+    width: 225px;
+}
+
+#formulario input.campo_email {
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
